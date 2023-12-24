@@ -41,3 +41,18 @@ Package内には、Mainという名で、static Main関数が必要。
 1. 具体クラスで具体的な手段を書く
 1. 具体クラスで継承した実行メソッドを実行する
 
+## FactoryMethod
+[リンク](https://www.techscore.com/tech/DesignPattern/FactoryMethod)
+
+** ポイント**
+1. CreateMethodを親クラスで作ることで、子クラスでオーバーライド・柔軟に対応できる
+
+## Singleton
+[リンク](https://www.techscore.com/tech/DesignPattern/Singleton)
+
+** ポイント**
+1. Javaの仕様で、クラス初期化のタイミングは初めてstaticメソッドがおこなわれたときなどとされている
+1. コンストラクタをprivateとすることで、外部からアクセスできず一度だけしかインスタンスが作られない。
+1. hashCode()で同一だということが確認できる
+
+
