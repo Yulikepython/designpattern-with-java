@@ -3,7 +3,7 @@
 [techscore](https://www.techscore.com/)
 
 ## 学習
-[ここから](https://www.techscore.com/tech/DesignPattern/FactoryMethod)
+[ここから](https://www.techscore.com/tech/DesignPattern/AbstractFactory)
 
 
 ## Eclipse
@@ -55,4 +55,16 @@ Package内には、Mainという名で、static Main関数が必要。
 1. コンストラクタをprivateとすることで、外部からアクセスできず一度だけしかインスタンスが作られない。
 1. hashCode()で同一だということが確認できる
 
+## Prototype
+[リンク](https://www.techscore.com/tech/DesignPattern/Prototype)
 
+** ポイント**
+1. 同じInterfaceを持つ、中身の違うクラスを作る
+1. 特定のクラスインスタンスのコピーが大量に作れる
+
+## Builder
+[リンク](https://www.techscore.com/tech/DesignPattern/Builder)
+
+** ポイント**
+1. Director(作業過程)とBilder(表現形式)で構成
+1. Builderを変更しても、Directorのコードに影響がない
