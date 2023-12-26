@@ -3,7 +3,7 @@
 [techscore](https://www.techscore.com/)
 
 ## 学習
-[ここから](https://www.techscore.com/tech/DesignPattern/AbstractFactory)
+[ここから](https://www.techscore.com/tech/DesignPattern/Bridge)
 
 
 ## Eclipse
@@ -66,5 +66,11 @@ Package内には、Mainという名で、static Main関数が必要。
 [リンク](https://www.techscore.com/tech/DesignPattern/Builder)
 
 ** ポイント**
-1. Director(作業過程)とBilder(表現形式)で構成
+1. Director(作業過程)とBuilder(表現形式)で構成
 1. Builderを変更しても、Directorのコードに影響がない
+
+## AbstractFactory
+[リンク](https://www.techscore.com/tech/DesignPattern/AbstractFactory)
+** ポイント**
+1.特定のオブジェクトを作るためのFactoryを定義
+1. FactoryをExtendsし、具体的に使用するクラスを定義する
