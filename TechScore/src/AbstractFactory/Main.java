@@ -13,9 +13,11 @@ public class Main {
 	
     private static Factory createFactory(String str){ 
         if("キムチ鍋".equals(str)){ 
-            return new KimuchiFactory(); 
+//            return new KimuchiFactory();
+        	return new MizutakiFactory();
         }else if("すき焼き".equals(str)){ 
-            return new SukiyakiFactory(); 
+//            return new SukiyakiFactory(); 
+        	return new MizutakiFactory();
         }else{ 
             return new MizutakiFactory(); 
         } 

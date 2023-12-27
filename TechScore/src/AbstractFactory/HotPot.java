@@ -5,8 +5,8 @@ import java.util.*;
 public class HotPot {
 	private Pot pot;
 	private Soup soup;
-	private Protein protein
-	Private List vegetable;
+	private Protein protein;
+	private List vegetables;
 	private List otherIgredients;
 	
 	public HotPot(Pot pot) {
@@ -22,10 +22,10 @@ public class HotPot {
 	}
 	
 	public void addVegetables(List<Vegetable> vegetables) {
-		this.vegitables = vegetables;
+		this.vegetables = vegetables;
 	}
 	
-	public void addOtherIngredients(List<Ingredients> otherIncredients) {
+	public void addOtherIngredients(List<Ingredients> otherIngredients) {
 		this.otherIgredients = otherIngredients;
 	}
 }

@@ -74,3 +74,9 @@ Package内には、Mainという名で、static Main関数が必要。
 ** ポイント**
 1.特定のオブジェクトを作るためのFactoryを定義
 1. FactoryをExtendsし、具体的に使用するクラスを定義する
+
+## Bridge
+[リンク](https://www.techscore.com/tech/DesignPattern/Bridge)
+** ポイント**
+1.
+1.
