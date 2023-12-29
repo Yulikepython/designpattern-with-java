@@ -3,7 +3,7 @@
 [techscore](https://www.techscore.com/)
 
 ## 学習
-[ここから](https://www.techscore.com/tech/DesignPattern/Bridge)
+[ここから](https://www.techscore.com/tech/DesignPattern/Composite)
 
 
 ## Eclipse
@@ -80,3 +80,8 @@ Package内には、Mainという名で、static Main関数が必要。
 ** ポイント**
 1.
 1.
+
+## Strategy
+[Link](https://www.techscore.com/tech/DesignPattern/Strategy.html)
+** ポイント** 
+## 
