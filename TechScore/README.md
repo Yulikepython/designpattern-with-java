@@ -84,4 +84,11 @@ Package内には、Mainという名で、static Main関数が必要。
 ## Strategy
 [Link](https://www.techscore.com/tech/DesignPattern/Strategy.html)
 ** ポイント** 
-## 
+1. 
+1. 
+
+## Composite
+[Link](https://www.techscore.com/tech/DesignPattern/Composite)
+** Point**
+1. 容器と中身を同一視する
+1. Compositeインターフェースを持つことで、そのインスタンスですべて同じように実行できる
