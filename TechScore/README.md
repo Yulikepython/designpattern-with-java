@@ -3,7 +3,7 @@
 [techscore](https://www.techscore.com/)
 
 ## 学習
-[ここから](https://www.techscore.com/tech/DesignPattern/Composite)
+[ここから](https://www.techscore.com/tech/DesignPattern/Visitor)
 
 
 ## Eclipse
@@ -71,24 +71,35 @@ Package内には、Mainという名で、static Main関数が必要。
 
 ## AbstractFactory
 [リンク](https://www.techscore.com/tech/DesignPattern/AbstractFactory)
+
 ** ポイント**
 1.特定のオブジェクトを作るためのFactoryを定義
 1. FactoryをExtendsし、具体的に使用するクラスを定義する
 
 ## Bridge
 [リンク](https://www.techscore.com/tech/DesignPattern/Bridge)
+
 ** ポイント**
 1.
 1.
 
 ## Strategy
 [Link](https://www.techscore.com/tech/DesignPattern/Strategy.html)
+
 ** ポイント** 
 1. 
 1. 
 
 ## Composite
 [Link](https://www.techscore.com/tech/DesignPattern/Composite)
+
 ** Point**
 1. 容器と中身を同一視する
 1. Compositeインターフェースを持つことで、そのインスタンスですべて同じように実行できる
+
+## Decorator
+[Link](https://www.techscore.com/tech/DesignPattern/Decorator)
+
+** Point**
+1. 飾り枠と中身を同一視し、柔軟に機能を拡張する
+1. 
