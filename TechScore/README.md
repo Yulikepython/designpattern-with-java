@@ -3,7 +3,7 @@
 [techscore](https://www.techscore.com/)
 
 ## 学習
-[ここから](https://www.techscore.com/tech/DesignPattern/Visitor)
+[ここから](https://www.techscore.com/tech/DesignPattern/ChainOfResponsibility)
 
 
 ## Eclipse
@@ -103,3 +103,9 @@ Package内には、Mainという名で、static Main関数が必要。
 ** Point**
 1. 飾り枠と中身を同一視し、柔軟に機能を拡張する
 1. 
+
+## Visitor
+[Link](https://www.techscore.com/tech/DesignPattern/Visitor)
+
+** Point**
+1. 機能のVisitorと実行するAcceptanceに分ける
